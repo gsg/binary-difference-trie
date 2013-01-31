@@ -1,0 +1,20 @@
+Sparse unordered integer sets
+
+Copyright 2013 Geoff Gole
+
+Synopsis
+
+A simple C99 library that implements set operations on integers. The
+goal is to improve performance and memory use compared to a red-black
+tree while still guaranteeing reasonable worst-case bounds (unlike,
+say, a hash table).
+
+Building
+
+Copy the source files into your tree and include them in whatever
+your build process is. With two files and zero dependencies, there's
+no point in a Makefile.
+
+The source should compile cleanly under any C99 compiler, or a C89
+compiler with support for stdint.h and the inline keyword. It does not
+compile as C++.
