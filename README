@@ -18,3 +18,7 @@ no point in a Makefile.
 The source should compile cleanly under any C99 compiler, or a C89
 compiler with support for stdint.h and the inline keyword. It does not
 compile as C++.
+
+Documentation
+
+See intset.h for usage.
